@@ -1,6 +1,5 @@
 # DC-MCTS-for-Atari-game-play
 
-Abstract
 
 This project investigates the application of Monte Carlo Tree Search
 (MCTS) and its extension, Divide and Conquer Monte Carlo Tree Search
@@ -22,12 +21,12 @@ strategies and decision support systems.
 Problem Statement
 
 Traditional Monte Carlo tree search algorithms (MCTS) reach their limits when
-applied to complex games with large state spaces or games with hidden or incomplete information. These limitations affect the effectiveness and efficiency of
-decision making. Additionally, MCTS scalability and performance can be challenging, especially in scenarios that require load balancing and subtree merging.
+applied to complex games with large state spaces or games with hidden or incomplete information. These limitations affect the effectiveness and efficiency of
+decision making. Additionally, MCTS scalability and performance can be challenging, especially in scenarios that require load balancing and subtree merging.
 Therefore, we need improved algorithms that can overcome these limitations and
 improve the performance of MCTS when dealing with complex games with large
-state spaces and hidden information. This project aims to address these challenges by investigating the application of the divide-and-conquer Monte Carlo
+state spaces and hidden information. This project aims to address these challenges by investigating the application of the divide-and-conquer Monte Carlo
 tree search (DC-MCTS) algorithm, which divides the search space into smaller
 subtrees for more targeted searches. and This project explores the advantages of
-DC-MCTS compared to traditional MCTS algorithms and analyzes their performance to gain insights into the efficiency and effectiveness of DC-MCTS when
+DC-MCTS compared to traditional MCTS algorithms and analyzes their performance to gain insights into the efficiency and effectiveness of DC-MCTS when
 tackling complex gaming and decision-making scenarios.
