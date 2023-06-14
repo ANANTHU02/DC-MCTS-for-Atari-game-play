@@ -65,11 +65,11 @@ class MCTS:
         else:  # Ball is above the paddle
             subgame = 'above'
 
-        # Get the subgame-specific Q and N dictionaries
+        # Getting the subgame-specific Q and N dictionaries
         subgame_Q = self.Q[state_hashable].get(subgame, {})
         subgame_N = self.N[state_hashable].get(subgame, {})
 
-        # Initialize the Q and N dictionaries for the subgame
+        # Initializing the Q and N dictionaries for the subgame
         for action in range(self.env.action_space.n):
             if action not in subgame_Q:
                 subgame_Q[action] = 0
