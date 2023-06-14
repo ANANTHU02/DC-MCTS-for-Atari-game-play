@@ -7,10 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1Rs8N2pUeP9_njIaXzJ3EyNLraKbAZKyp
 """
 
-import numpy as np
-import torch
-import gym
-
 !pip install gym[atari]
 !pip install autorom[accept-rom-license]
 
